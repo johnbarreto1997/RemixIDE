@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "to",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "amount",
+						"type": "uint256[]"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Conceptos/Splitpayment.sol": "Splipayment"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Conceptos/Splitpayment.sol": {
+			"keccak256": "0x8e38cac3e3aa6c5eb636c21e796388591eb915e414fbbd17bcc10ee31b12106a",
+			"license": "GPL - 3.0",
+			"urls": [
+				"bzz-raw://6755bdc11b36fe7491acc960f707fd60de4af1a213cd7a84b7295adcda9b2a7d",
+				"dweb:/ipfs/QmRzU8EZ7Z7ZkkEwg1YUBNwP2k5abwHJTxFw4Gj75dsGjf"
+			]
+		}
+	},
+	"version": 1
+}

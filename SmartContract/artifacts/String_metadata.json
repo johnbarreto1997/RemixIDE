@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "concatenante",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_string",
+						"type": "string"
+					}
+				],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SmartContract/StringManipulation.sol": "String"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SmartContract/StringManipulation.sol": {
+			"keccak256": "0xa51650ad1f3cec26e525399346cdc7941a509402be0f6c8a912de392ae948f67",
+			"license": "GPL - 3.0",
+			"urls": [
+				"bzz-raw://c4a3c4bb60dfcb41b701764245cc3fcf8add15fdf728390fbe3441604bd18e7a",
+				"dweb:/ipfs/Qmf1CW8uvTK6ZEcRnzKGwvHiNTzYY1wxMpKeV1aKEn1ibr"
+			]
+		}
+	},
+	"version": 1
+}
